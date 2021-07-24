@@ -1,0 +1,68 @@
+:root{
+    --color1: #eee;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100%;
+}
+
+/******************************* HEADER********************************** */
+header{
+    background-color: var(--fondoHeader);
+}
+
+.logo-container__link{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-container__link:hover{
+    text-decoration: underline;
+    color: #555;	
+}
+
+.logo-container__logo{
+    font-size: 3em;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding-bottom: .1em ;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding: 0.3em .5em;
+}
+
+.Calories{
+    height: 100%;
+}
+
+.ask{
+    height: 30rem;
+    padding: .01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask__field{
+    height: 20rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
