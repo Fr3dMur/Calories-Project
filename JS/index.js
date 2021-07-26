@@ -11,7 +11,7 @@ let calcForCondition = 0;
 
 switch (condition) {
     case 'Sedentario':
-    calcForCondition = 1.2
+        calcForCondition = 1.2
         break
     case 'Ligeramente Activo':
         calcForCondition = 1.375
@@ -30,16 +30,16 @@ switch (condition) {
 }
 
 function calcMen(a, b, c, d){
-    console.log(((10 * a) + (6.2 * b) - (5 * c + 5)) * d)
+    return(((10 * a) + (6.2 * b) - (5 * c + 5)) * d)
 }   
 function calcWoMen(a, b, c, d){
-    console.log(((10 * a) + (6.2 * b) - (5 * c - 151)) * d)
+    return(((10 * a) + (6.2 * b) - (5 * c - 151)) * d)
 }   
 
 if(gender === 'men'){
-    calcMen(weigh, height, age, calcForCondition)
+    console.log(calcMen(weigh, height, age, calcForCondition))
 } else if (gender === 'women'){
-    calcWoMen(weigh, height, age, calcForCondition)
+    console.log(calcWoMen(weigh, height, age, calcForCondition))
 } else {
     console.log('I\'m sorry, i work with either men or women only')
 }

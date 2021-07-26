@@ -20,36 +20,44 @@
                 </a>
             </span>		
         </header>
+        <!-- main -->
         <main class="Calories">
             <div class="ask">
                 <fieldset class="ask__field">
-                    <legend>Form</legend>
+                  <legend class="field__legend">Form</legend>
                     <form action="" class="form">
-                        <label for=""> Height
-                            <input type="text" required name="height" maxlength="3" id="height">
+                        <label for="height" class="form__label">
+                          <p class="form__label__p">Height</p>
+                            <input type="text" required name="height" maxlength="3" id="height" class="form__input">
                         </label>
-                        <label for="weigh"> Weigh
-                            <input type="text" name="weigh" id="weigh required maxlength="3">
+                        <label for="weigh" class="form__label"> 
+                          <p class="form__label__p">Weigh</p>
+                            <input type="text" name="weigh" id="weigh" required maxlength="3" class="form__input">
                         </label>
-                        <label for=""> Age
-                            <input type="text" name="age" id="age" required maxlength="2">
+                        <label for="age" class="form__label"> 
+                          <p class="form__label__p">Age</p>
+                            <input type="text" name="age" id="age" required maxlength="2" class="form__input">
                         </label>
                         
-                        <fieldset>
-                        <legend>Gender</legend>
-                            <label for="male"> Male
-                                <input type="checkbox" name="gender male" id="male">
+                        <fieldset class="gender">
+                          <legend class="gender__legend">Gender</legend>
+                            <label for="male"> 
+                              <p class="gender__label">Male</p>                                 
+                                <input type="radio" class="gender__input" name="gender male" id="male">
                             </label>
-                            <label for="female"> Female
-                                <input type="checkbox" name="gender female" id="female">
+                            <label for="female"> 
+                              <p class="gender__label">Female</p>
+                                <input type="radio" class="gender__input" name="gender female" id="female">
                             </label>
                         </fieldset>
-
-                        <button value="">Run</button>
+                        <div class="box-button">
+                            <button value="" class="box-button__button">Run</button>
+                        </div>
                     </form>
                 </fieldset>
             </div>   
         </main>
+       <!-- footer -->
         <footer class="final">
                 <span class="logo-container">
                 <a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
