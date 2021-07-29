@@ -1,7 +1,7 @@
-Welcome, i'm so grateful to have guests.
+## Welcome, i'm so grateful to have guests.
 
-# Hi, my name is Freddy Murillo, 
-# but i appreciate if you call me Fred.
+### Hi, my name is Freddy Murillo, 
+### but i appreciate if you call me Fred.
 
 
 ## Project-Calories
